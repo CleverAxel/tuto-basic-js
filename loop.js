@@ -54,11 +54,12 @@ let total = 0;
 
 //boucle WHILE
 // while(condition == true){
-
+    //boucle dedans
 // }
 
 let sentence = "une pomme";
 let charToSearch = "p";
+//rechercher une lettre et stopper la bouche dès qu'on l'a trouvée
 // let i = 0;
 // let isNotFound = true;
 // while(i < sentence.length && isNotFound){
@@ -81,6 +82,9 @@ let charToSearch = "p";
 //     i++;
 // }
 
+// let sampleTexte = "j'ai mangé une poire";
+// console.log(sampleTexte.indexOf("z")); //version déjà construite par JS
+
 
 // for(let i = 0; i < sentence.length; i++){
 //     if(charToSearch == sentence[i]){
@@ -91,16 +95,15 @@ let charToSearch = "p";
 // }
 
 
-// let sampleTexte = "j'ai mangé une poire";
-// console.log(sampleTexte.indexOf("z"));
 
-
+//ne rentrera jamais dedans si la condition est fausse
 while(5 != 5){
     console.log("boucle");
 }
 
 
 //boucle DO WHILE
+//rentrera une fois dedans même si la condition est fausse
 do{
     console.log("do while");
 }while(5 != 5);
