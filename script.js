@@ -41,6 +41,7 @@ let concatenatedString = string1 + " " + string2;
 console.log(concatenatedString);
 
 
+//Attention au type lorsqu'on effectue des opérations
 let nombre = 5;
 let nombreTxt = "10";
 
